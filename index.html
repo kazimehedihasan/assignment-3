@@ -35,7 +35,7 @@
 </head>
 <body class="font-lato"> 
     <header class="md:container md:mx-auto">
-<nav class="my-16">
+<nav class="my-16 md:grid-flow-col">
   <div class="navbar bg-red-primary rounded-r-full rounded-l-full">
     <div class="navbar-start">
       <div class="text-white-primary-bg">
@@ -62,12 +62,12 @@
   </div>
 
 </nav>
-    <div class="carousel w-full h-auto">
+    <div class="carousel w-full h-auto md:grid-cols-1">
         <div id="slide1" class="carousel-item relative w-full">
           <img src="/images/banner1.png" class="w-full" />
           <div class="absolute flex items-center text-center justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" class="btn btn-circle  bg-black text-white-primary-bg">❮</a> 
-            <div class="space-y-7 flex-1 text-white-primary-bg">
+            <div class="space-y-7 flex-1 text-white-primary-bg md:grid-flow-col">
                 <h2 class="text-2xl lg:text-6xl font bold">
                     Exotic tastes at your <br> doorstep
                 </h2>
@@ -137,7 +137,7 @@
         </header>
       <main class="md:container md:mx-auto">
         <section class="my-24">
-            <div class="flex justify-between">
+            <div class="flex justify-between md:grid-cols-1">
                 <div class="gap-y-3">
                 <h3 class="text-5xl text-[#121212]">Deal of the day</h3>
                 <p class="text-slate-500 text-[16px]">Contrary to popular belief, is not simply random text.
@@ -172,10 +172,10 @@
                       </div>
                 </div>
                 </div>
-               <div class="grid gap-11 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+               <div class="grid gap-11 grid-cols-1 md:grid-cols-1 lg:grid-cols-4">
                 <!-- first review -->
                 <div class="card bg-base-100 p-9 border-gray-400">
-                    <figure><img class="w-28" src="/images/fruit6.png" alt="" /></figure>
+                    <figure><img class="w-28" src="./images/fruit6.png" alt="" /></figure>
                     <div class="gap-y-4 card-body">
                   <div class="text-center space-y-4 m-4">
                       <p>12.90$ - 18.85$</p>
